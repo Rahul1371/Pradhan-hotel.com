@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradhan Hotel - Categories</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <a href="index.html" class="flex items-center py-4">
+                            <div class="flex items-center space-x-3">
+                                <!-- Logo SVG -->
+                                <svg class="w-10 h-10" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="25" cy="25" r="24" stroke="#16A34A" stroke-width="2"/>
+                                    <path d="M15 20h20M15 25h20M15 30h20" stroke="#16A34A" stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M25 15v20" stroke="#16A34A" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <!-- Logo Text -->
+                                <span class="font-['Playfair_Display'] text-3xl text-green-600 tracking-wider hover:text-green-700 transition-colors duration-300">
+                                    PRADHAN
+                                    <span class="text-gray-800 text-2xl italic">Hotel</span>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-4">
+                        <a href="index.html" class="py-4 px-2 text-gray-500 hover:text-green-500">Home</a>
+                        <a href="categories.html" class="py-4 px-2 text-green-500 border-b-4 border-green-500">Categories</a>
+                        <a href="order.html" class="py-4 px-2 text-gray-500 hover:text-green-500">Order</a>
+                        
+                        <a href="about.html" class="py-4 px-2 text-gray-500 hover:text-green-500">About</a>
+                        <a href="faq.html" class="py-4 px-2 text-gray-500 hover:text-green-500">FAQ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Categories Header with Background -->
+    <div class="relative bg-green-600 py-16">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b" 
+                 alt="Restaurant Background" 
+                 class="w-full h-full object-cover opacity-20">
+        </div>
+        <div class="relative max-w-6xl mx-auto px-4">
+            <h1 class="text-5xl font-bold text-white text-center mb-4">Our Menu Categories</h1>
+            <p class="text-xl text-white text-center">Discover our delicious selection</p>
+        </div>
+    </div>
+
+    <!-- Categories Grid with Enhanced Graphics -->
+    <div class="max-w-6xl mx-auto px-4 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Dal Rice -->
+            <div class="group bg-white rounded-lg shadow-md overflow-hidden transform transition-all duration-300 hover:scale-105">
+                <div class="relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1516684732162-798a0062be99" 
+                         alt="Dal Rice"
+                         class="w-full h-56 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-6 border-t">
+                    <h3 class="text-xl font-semibold mb-2">Dal Rice</h3>
+                    <p class="text-gray-600 mb-4">Traditional lentils served with steamed rice</p>
+                    <div class="flex items-center justify-between mb-4">
+                        <p class="text-green-600 font-semibold text-xl">₹70</p>
+                        <span class="text-gray-400 text-sm">Per Plate</span>
+                    </div>
+                    <a href="order.html" 
+                       class="inline-block w-full bg-green-500 text-white text-center px-4 py-2 rounded transform transition-transform duration-300 hover:bg-green-600 hover:scale-105">
+                        <span class="flex items-center justify-center">
+                            Order Now
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Chapatti and Meat -->
+            <div class="group bg-white rounded-lg shadow-md overflow-hidden transform transition-all duration-300 hover:scale-105">
+                <div class="relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19" 
+                         alt="Chapatti and Meat"
+                         class="w-full h-56 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-6 border-t">
+                    <h3 class="text-xl font-semibold mb-2">Chapatti and Meat</h3>
+                    <p class="text-gray-600 mb-4">Fresh chapatti served with meat curry</p>
+                    <div class="flex items-center justify-between mb-4">
+                        <p class="text-green-600 font-semibold text-xl">₹60</p>
+                        <span class="text-gray-400 text-sm">Per Plate</span>
+                    </div>
+                    <a href="order.html" 
+                       class="inline-block w-full bg-green-500 text-white text-center px-4 py-2 rounded transform transition-transform duration-300 hover:bg-green-600 hover:scale-105">
+                        <span class="flex items-center justify-center">
+                            Order Now
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Chapatti and Mutton -->
+            <div class="group bg-white rounded-lg shadow-md overflow-hidden transform transition-all duration-300 hover:scale-105">
+                <div class="relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1545247181-516773cae754" 
+                         alt="Chapatti and Mutton"
+                         class="w-full h-56 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-6 border-t">
+                    <h3 class="text-xl font-semibold mb-2">Chapatti and Mutton</h3>
+                    <p class="text-gray-600 mb-4">Fresh chapatti with spicy mutton curry</p>
+                    <div class="flex items-center justify-between mb-4">
+                        <p class="text-green-600 font-semibold text-xl">₹80</p>
+                        <span class="text-gray-400 text-sm">Per Plate</span>
+                    </div>
+                    <a href="order.html" 
+                       class="inline-block w-full bg-green-500 text-white text-center px-4 py-2 rounded transform transition-transform duration-300 hover:bg-green-600 hover:scale-105">
+                        <span class="flex items-center justify-center">
+                            Order Now
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Rice and Meat -->
+            <div class="group bg-white rounded-lg shadow-md overflow-hidden transform transition-all duration-300 hover:scale-105">
+                <div class="relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1512058556646-c4da40fba323" 
+                         alt="Rice and Meat"
+                         class="w-full h-56 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-6 border-t">
+                    <h3 class="text-xl font-semibold mb-2">Rice and Meat</h3>
+                    <p class="text-gray-600 mb-4">Tender meat served with aromatic rice</p>
+                    <div class="flex items-center justify-between mb-4">
+                        <p class="text-green-600 font-semibold text-xl">₹90</p>
+                        <span class="text-gray-400 text-sm">Per Plate</span>
+                    </div>
+                    <a href="order.html" 
+                       class="inline-block w-full bg-green-500 text-white text-center px-4 py-2 rounded transform transition-transform duration-300 hover:bg-green-600 hover:scale-105">
+                        <span class="flex items-center justify-center">
+                            Order Now
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Rice with Mutton -->
+            <div class="group bg-white rounded-lg shadow-md overflow-hidden transform transition-all duration-300 hover:scale-105">
+                <div class="relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0" 
+                         alt="Rice with Mutton"
+                         class="w-full h-56 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                </div>
+                <div class="p-6 border-t">
+                    <h3 class="text-xl font-semibold mb-2">Rice with Mutton</h3>
+                    <p class="text-gray-600 mb-4">Special mutton curry with fragrant rice</p>
+                    <div class="flex items-center justify-between mb-4">
+                        <p class="text-green-600 font-semibold text-xl">₹120</p>
+                        <span class="text-gray-400 text-sm">Per Plate</span>
+                    </div>
+                    <a href="order.html" 
+                       class="inline-block w-full bg-green-500 text-white text-center px-4 py-2 rounded transform transition-transform duration-300 hover:bg-green-600 hover:scale-105">
+                        <span class="flex items-center justify-center">
+                            Order Now
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/918011960936" 
+       class="fixed bottom-8 right-8 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z"/>
+        </svg>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="max-w-6xl mx-auto px-4 py-8">
+            <div class="text-center">
+                <p>&copy; 2025 Pradhan Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
